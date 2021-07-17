@@ -6,10 +6,18 @@ Any help is appreciated!
 
 ## Set Up Project
 
-`yarn install`
-
-## Release
+To set up the project, run:
 
 ```sh
-npm run release [major|minor|patch|x.x.x]
+$ yarn install
 ```
+
+You should then be able to run tests that pass via:
+
+```sh
+$ yarn test
+```
+
+# Release
+
+Only members of the Technical Steering Committee (TSC) team of the WebdriverIO org can release the package. If you are a member, just trigger the `Manual NPM Publish` workflow and pick a release type, e.g. `patch`, `minor` or `major`.
